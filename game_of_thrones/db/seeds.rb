@@ -22,10 +22,10 @@ house_tyrell = House.create(name:"House Tyrell", img_url:"http://winteriscoming.
 
 
 
-ned = Character.create(name: "Eddard (Ned)", image_url:"http://www.lalorsc.vic.edu.au/uploads/template/images/unknown-female.jpg",house: house_stark)
-arya = Character.create(name: "Arya", image_url:"http://www.lalorsc.vic.edu.au/uploads/template/images/unknown-female.jpg",house: house_stark)
-sansa = Character.create(name: "Sansa Stark", image_url:"http://www.lalorsc.vic.edu.au/uploads/template/images/unknown-female.jpg",house: house_stark)
-tywin = Character.create(name: "Tywin Lannister", image_url:"http://www.lalorsc.vic.edu.au/uploads/template/images/unknown-female.jpg",house: house_lannister)
-cersei = Character.create(name: "Cersei Lannister", image_url:"http://www.lalorsc.vic.edu.au/uploads/template/images/unknown-female.jpg",house: house_lannister)
-robert = Character.create(name: "Robert Baratheon", image_url:"http://www.lalorsc.vic.edu.au/uploads/template/images/unknown-female.jpg",house: house_baratheon)
-stannis = Character.create(name: "Stannis Baratheon", image_url:"http://www.lalorsc.vic.edu.au/uploads/template/images/unknown-female.jpg",house: house_baratheon)
+ned = Character.create(name: "Eddard (Ned)", image_url:"https://s-media-cache-ak0.pinimg.com/originals/dc/36/c3/dc36c37f85200b21938e8d73b15ef989.jpg",house: house_stark)
+arya = Character.create(name: "Arya", image_url:"http://i.lv3.hbo.com/assets/images/series/game-of-thrones/character/s5/arya-stark-1024.jpg",house: house_stark)
+sansa = Character.create(name: "Sansa Stark", image_url:"https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/05/18/22/Sansa-Stark-Actress.jpg",house: house_stark)
+tywin = Character.create(name: "Tywin Lannister", image_url:"http://i.lv3.hbo.com/assets/images/series/game-of-thrones/character/s5/tywin-lannister-1920.jpg",house: house_lannister)
+cersei = Character.create(name: "Cersei Lannister", image_url:"http://i.lv3.hbo.com/assets/images/series/game-of-thrones/character/s5/cersei-lannister-1024.jpg",house: house_lannister)
+robert = Character.create(name: "Robert Baratheon", image_url:"https://i.ytimg.com/vi/pNM61MWp-t4/maxresdefault.jpg",house: house_baratheon)
+stannis = Character.create(name: "Stannis Baratheon", image_url:"http://s.newsweek.com/sites/www.newsweek.com/files/2016/03/17/stannis-baratheon-game-thrones.jpg",house: house_baratheon)
