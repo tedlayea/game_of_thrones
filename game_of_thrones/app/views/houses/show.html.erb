@@ -1,0 +1,13 @@
+
+<h2> The amyzing characaters inside <%=@house.name%> are listed below: </h2>
+<h2> Click on their name and see detail about each characters </h2>
+<img src = "<%= @house.img_url%>"  id="house_image">
+<%@house.characters.each do |character|%>
+  <p><%= link_to character.name, character%></p>
+<%end%>
+<div>
+  <%= link_to "Edit", edit_house_path(@house) %> |
+  <%= link_to "Delete", house_path(@house), method: :delete %> |
+  <%= link_to "Add New Character", new_character_path %> |
+  <%= link_to "Home", :root %>
+</div>

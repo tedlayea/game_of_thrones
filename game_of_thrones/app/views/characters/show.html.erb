@@ -1,0 +1,10 @@
+<div>
+  <h1><%= @character.name%></h1>
+  Lives in: <%= @character.house.name%>
+</div>
+<img src = "<%= @character.image_url%>"  id="person_image">
+<div>
+  <%= link_to "Edit", edit_character_path(@character) %> |
+  <%= link_to "Delete", character_path(@character), method: :delete %> |
+  <%= link_to "Back", :back %>
+</div>

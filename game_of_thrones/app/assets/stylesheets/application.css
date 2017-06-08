@@ -13,3 +13,30 @@
  *= require_tree .
  *= require_self
  */
+
+ /* assets/stylesheets */
+ @font-face {
+   font-family: "thrones";
+   src: url('game_of_thrones.ttf') format("truetype");
+ }
+
+ /* assets/fonts */
+ @font-face {
+   font-family: "thrones";
+   src: font-url('game_of_thrones.ttf') format("truetype");
+ }
+body{
+  background-color: gainsboro;
+}
+ #house_index{
+   width:50px;
+   height:50px;
+ }
+ #house_image{
+   width:300px;
+   height:300px;
+ }
+ #person_image{
+   width:300px;
+   height:300px;
+ }

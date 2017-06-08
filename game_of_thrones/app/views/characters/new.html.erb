@@ -1,0 +1,29 @@
+<h2> New character </h2>
+<%= form_for  @character do |f|  %>
+
+<p>
+  <%= f.label :character_name%>
+  <%= f.text_field :name%>
+</p>
+
+<p>
+  <%= f.label :Character_photo%>
+  <%= f.text_field :image_url%>
+</p>
+
+<p>
+  <%= f.label :house_name%>
+  <select>
+    <%= @houses.each do |house| %>
+    <option> <%=house.name%></option>
+    <%end %>
+  </selct>
+</p>
+
+<p>
+  <%= f.submit%>
+</p>
+
+<%end %>
+
+<div> <%= link_to "Home", :root %></div>

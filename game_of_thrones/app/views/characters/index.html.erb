@@ -1,0 +1,7 @@
+<h1>All the chacters in Game of thrones are listed below,
+   please click on their name to see detail about them </h1>
+   <h2>characters <%= link_to "(+)",new_character_path%></h2>
+   <%@characters.each do |character|%>
+   <div><%= link_to character.name, character%></div>
+   <%end%>
+  <div>  <%= link_to "Home", :root %></div>
